@@ -1,0 +1,3 @@
+# Project Details
+
+This multi-modal RAG GenAI project leverages Python 3.12 and uv for efficient dependency management and streamlined virtual environment handling. It combines powerful retrieval-augmented generation techniques with advanced generative AI models to process and analyze diverse multi-modal data, including text and images, enabling intelligent information retrieval and dynamic content generation capabilities.
