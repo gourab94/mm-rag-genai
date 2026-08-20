@@ -251,6 +251,9 @@ class MultimodalDocumentIngestion:
             document_ids = sorted(
                 {str(doc.metadata["document_id"]) for doc in prepared}
             )
+            
+            # Testing print statement to verify the number of prepared documents
+            print(f"Docs Prepared: {len(prepared)}")
 
             if replace_existing:
                 for document_id in document_ids:

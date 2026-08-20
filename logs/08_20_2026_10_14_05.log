@@ -1,0 +1,80 @@
+{"pdf_path": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-20T04:44:08.063034Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/scroll "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/scroll "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-20T04:44:23.592028Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The write operation timed out", "exc_info": true, "timestamp": "2026-08-20T04:44:31.684335Z", "level": "error", "event": "document_ingestion_failed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-20T04:51:42.944627Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "source_document_count": 1, "input_document_count": 53, "indexed_document_count": 68, "inserted_point_count": 68, "timestamp": "2026-08-20T04:51:53.353370Z", "level": "info", "event": "document_ingestion_completed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-20T04:53:21.100478Z", "level": "info", "event": "retriever_initialized"}
+{"model_name": "gpt-4.1-mini", "collection_name": "mm-rag-documents", "max_images": 4, "timestamp": "2026-08-20T04:53:21.234440Z", "level": "info", "event": "generation_initialized"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "Hi", "k": 6, "result_count": 6, "timestamp": "2026-08-20T04:53:22.381599Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "Hi", "retrieved_documents": 6, "image_count": 4, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T04:53:24.572093Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "Hi", "retrieved_documents": 6, "used_images": 4, "timestamp": "2026-08-20T04:53:30.550387Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "what are the expected extractions for  Arka Finance?", "k": 6, "result_count": 6, "timestamp": "2026-08-20T04:54:55.629339Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "what are the expected extractions for  Arka Finance?", "retrieved_documents": 6, "image_count": 2, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T04:54:55.990985Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "what are the expected extractions for  Arka Finance?", "retrieved_documents": 6, "used_images": 2, "timestamp": "2026-08-20T04:54:59.519956Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "what is the res trgt for api avlblty", "k": 6, "result_count": 6, "timestamp": "2026-08-20T04:56:32.431665Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "what is the res trgt for api avlblty", "retrieved_documents": 6, "image_count": 1, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T04:56:32.499948Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "what is the res trgt for api avlblty", "retrieved_documents": 6, "used_images": 1, "timestamp": "2026-08-20T04:56:34.895407Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "resolution", "k": 6, "result_count": 6, "timestamp": "2026-08-20T04:56:54.212656Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "resolution", "retrieved_documents": 6, "image_count": 4, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T04:56:55.296951Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "resolution", "retrieved_documents": 6, "used_images": 4, "timestamp": "2026-08-20T04:57:02.909140Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "i had asked about the res trgt. you gave response. now i'm asing the resolution", "k": 6, "result_count": 6, "timestamp": "2026-08-20T05:18:26.334677Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "i had asked about the res trgt. you gave response. now i'm asing the resolution", "retrieved_documents": 6, "image_count": 2, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T05:18:26.930379Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "i had asked about the res trgt. you gave response. now i'm asing the resolution", "retrieved_documents": 6, "used_images": 2, "timestamp": "2026-08-20T05:18:33.336512Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "what's the capital of france", "k": 6, "result_count": 6, "timestamp": "2026-08-20T05:19:17.937045Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "what's the capital of france", "retrieved_documents": 6, "image_count": 4, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T05:19:18.227138Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "what's the capital of france", "retrieved_documents": 6, "used_images": 4, "timestamp": "2026-08-20T05:19:20.395148Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "what's the capital of france", "k": 6, "result_count": 6, "timestamp": "2026-08-20T05:19:35.450769Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "what's the capital of france", "retrieved_documents": 6, "image_count": 4, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T05:19:35.795673Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "what's the capital of france", "retrieved_documents": 6, "used_images": 4, "timestamp": "2026-08-20T05:19:38.128300Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "use your own understanding as well. what's the capital of france", "k": 6, "result_count": 6, "timestamp": "2026-08-20T05:20:02.151483Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "use your own understanding as well. what's the capital of france", "retrieved_documents": 6, "image_count": 4, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-20T05:20:02.777168Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "use your own understanding as well. what's the capital of france", "retrieved_documents": 6, "used_images": 4, "timestamp": "2026-08-20T05:20:07.887566Z", "level": "info", "event": "generation_completed"}

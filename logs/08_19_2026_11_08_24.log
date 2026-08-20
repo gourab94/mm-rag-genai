@@ -1,0 +1,62 @@
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+{"pdf_path": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-19T05:38:41.634611Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-19T05:38:41.635614Z", "level": "info", "event": "pdf_parsing_started"}
+{"pages": 24, "images": 13, "timestamp": "2026-08-19T05:39:10.951871Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 16, "timestamp": "2026-08-19T05:39:12.068749Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 53, "timestamp": "2026-08-19T05:39:12.068749Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-19T05:39:12.068749Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "C:\\Users\\goura\\Documents\\Learn AI\\mm-rag-genai\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-19T05:39:12.068749Z", "level": "info", "event": "pdf_parsing_completed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "timestamp": "2026-08-19T05:39:23.035248Z", "level": "info", "event": "qdrant_collection_created"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-19T05:39:29.100047Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The read operation timed out", "exc_info": true, "timestamp": "2026-08-19T05:39:41.148484Z", "level": "error", "event": "document_ingestion_failed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-19T05:39:58.623066Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The write operation timed out", "exc_info": true, "timestamp": "2026-08-19T05:40:05.745428Z", "level": "error", "event": "document_ingestion_failed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-19T05:40:35.976406Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The write operation timed out", "exc_info": true, "timestamp": "2026-08-19T05:40:43.206691Z", "level": "error", "event": "document_ingestion_failed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-19T05:42:45.874688Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The write operation timed out", "exc_info": true, "timestamp": "2026-08-19T05:43:01.954531Z", "level": "error", "event": "document_ingestion_failed"}
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-19T05:47:49.869525Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://932f150b-ebe7-4483-8fe4-ef64bc8f0bdc.us-west-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"error": "The write operation timed out", "exc_info": true, "timestamp": "2026-08-19T05:47:57.085201Z", "level": "error", "event": "document_ingestion_failed"}
